@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+
+}
+:root {
+    --primary: rgb(12, 99, 229);
+    --secondary: rgb(30, 82, 84);
+    --tertiary: rgb(159, 180, 241);
+    --dark: rgb(22, 28, 51);
+    --light: rgba(238, 238, 247, 1);
+    
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--secondary);
+    background-color: var(--light);
+    line-height: 1.5;
+}
+
+.header {
+    padding:1%;
+    background-color:var(--tertiary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(https://as1.ftcdn.net/jpg/01/83/73/99/1000_F_183739987_yhcKUZT8hNhtiSJ1dPAwXWXZmcEkJQg8.jpg);
+    background-size: 100%; 
+    background-repeat: repeat-x left top;
+    background-position: center;
+    
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 300%;
+    color: var(--light);
+   
+}
+#profile {
+  max-width: 100%;
+  width: 10%;
+
+}
+.header nav {
+
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display:inline-block;
+    margin-left: 25px;
+
+}
+
+a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: var(--light);
+  text-decoration: none;
+
+}
+
+p {
+    font-size: 16px;
+}
+
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+main section { 
+    margin-bottom: 6px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:var(--dark);
+    color:var(--light);
+}
+
+.work {
+  display: flex;
+    margin-bottom: 6px;
+    padding: 50px;
+    height:800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:var(--dark);
+    color:var(--light);
+    
+}
+#big-image {
+  width: auto;
+}
+#Challenge3 {
+  
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 5%;
+  margin-left: 30%;
+  justify-content: center;
+}
+#Challenge4 {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-left: 30%;
+  padding: 5%;
+  justify-content: center;
+}
+.contact-me address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  .contact-me address a {
+    color: var(--light);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+  }
+  
+  .contact-me address a:hover {
+    background-size: 100% 88%;
+    color: var(--tertiary);
+  }
+  
+  @media screen and (max-width: 980px) {
+    .header {
+      padding:0;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+  
+    .header nav {
+      justify-content: center;
+    }
+    main section > h2 {
+      border-right: none;
+      border-bottom: 4px solid var(--primary);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 7vw;
+    
+    }
+  }
+    @media screen and (max-width: 355px) {
+    #big-image {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+    }
+    }
+  .footer {
+    
+    padding: 10px;
+    clear: both;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 120%;
+    background-color: var(--dark);
+    color: var(--light);
+  }
+  .h3 {
+    font-size: 120%;
+  }
+  
+  
+  
