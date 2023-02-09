@@ -108,6 +108,11 @@ main section {
 #big-image {
   width: 50%;
 }
+
+#second-image {
+  width: 50%;
+  padding: 5%;
+}
 #Challenge3 {
   
   display: flex;
