@@ -18,7 +18,7 @@ I learned to make portfolio responsive that helps users to access my portfolio f
 https://parth0415.github.io/Portfolio-Page/
 
 ## Usage
-![Project](./assets/images/Portfolio-challenge2.png "Project2")
+![Project](./assets/images/portfolio-challenge2%20new_%20(1).png "Project2")
 
 ## LICENSE
 Please refer to the LICENSE in the repository.
